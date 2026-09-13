@@ -3,7 +3,7 @@ Opretter PostgreSQL database og tabeller til finansielt forecast-studie.
 
 Kør dette script én gang for at sætte databasen op.
 
-Skift DB_KODEORD til det kodeord du satte under PostgreSQL-installationen.
+Skift DB_KODEORD til det kodeord der er sat op under PostgreSQL-installationen.
 """
 
 import psycopg2
@@ -14,7 +14,7 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 DB_HOST     = "localhost"
 DB_PORT     = 5432
 DB_BRUGER   = "postgres"
-DB_KODEORD  = "Miamia97!"   # <-- skift dette
+DB_KODEORD  = "*****"   # <-- skift dette
 DB_NAVN     = "forecast_studie"
 # ─────────────────────────────────────────────────────────────────────────────
 
